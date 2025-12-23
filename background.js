@@ -1,7 +1,7 @@
 // Background Service Worker - The AI Brain
 
 // ⚠️ IMPORTANT: Replace with your actual Gemini API key
-const GEMINI_API_KEY = 'AIzaSyCg0nM49f4PRdG9VAgLUnQHN4ec6is89Ik';
+const GEMINI_API_KEY = 'gemini api';
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 // Listen to messages from content script
@@ -542,5 +542,6 @@ chrome.runtime.onInstalled.addListener((details) => {
     console.log('🎉 KDP installed! Start learning to track your knowledge.');
   }
 });
+
 
 console.log('🚀 KDP Background Service Active');
