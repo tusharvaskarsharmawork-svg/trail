@@ -1,7 +1,7 @@
 // Background Service Worker - The AI Brain
 
 // ⚠️ IMPORTANT: Replace with your actual Gemini API key
-const GEMINI_API_KEY = 'gemini api';
+const GEMINI_API_KEY = '--------';
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 // Listen to messages from content script
@@ -545,3 +545,4 @@ chrome.runtime.onInstalled.addListener((details) => {
 
 
 console.log('🚀 KDP Background Service Active');
+
